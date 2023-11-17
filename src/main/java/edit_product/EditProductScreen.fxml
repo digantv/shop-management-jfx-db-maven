@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edit_product.EditProductScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="53.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" width="604.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="MULTIPLY" fill="WHITE" height="328.0" layoutX="8.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <Label layoutX="22.0" layoutY="16.0" text="Edit Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="loggedName" layoutX="476.0" layoutY="14.0" text="Digant V" textFill="WHITE" />
+      <Label layoutX="538.0" layoutY="14.0" text="(Admin)" textFill="WHITE" />
+      <TextField fx:id="editProductName" layoutX="206.0" layoutY="67.0" prefHeight="31.0" prefWidth="280.0" promptText="Enter Product Name To Edit" />
+      <TextField fx:id="productName" layoutX="206.0" layoutY="112.0" prefHeight="31.0" prefWidth="280.0" promptText="New Product Name" />
+      <TextField fx:id="productPrice" layoutX="206.0" layoutY="160.0" prefHeight="31.0" prefWidth="280.0" promptText="New Product Price" />
+      <TextField fx:id="availableQuantity" layoutX="206.0" layoutY="209.0" prefHeight="31.0" prefWidth="280.0" promptText="New Available Quantity" />
+      <TextField fx:id="productCategory" layoutX="206.0" layoutY="257.0" prefHeight="31.0" prefWidth="280.0" promptText="New Product Category" />
+      <TextField fx:id="productID" layoutX="206.0" layoutY="304.0" prefHeight="31.0" prefWidth="280.0" promptText="New Product ID" />
+      <Label layoutX="55.0" layoutY="73.0" text="Search Product Name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="118.0" text="Product Name (English)">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="166.0" text="Product Price">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="215.0" text="Available Quantity">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="263.0" text="Product Category">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="310.0" text="Product ID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="editProductButton" layoutX="347.0" layoutY="346.0" mnemonicParsing="false" onAction="#editProduct" prefHeight="32.0" prefWidth="105.0" style="-fx-background-color: #79AC78; -fx-border-color: black;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeButton" layoutX="162.0" layoutY="346.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="32.0" prefWidth="105.0" style="-fx-border-color: red;" text="Close" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

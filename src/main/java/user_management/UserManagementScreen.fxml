@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user_management.UserManagementScreenController">
+   <children>
+      <Label layoutX="194.0" layoutY="25.0" prefHeight="39.0" prefWidth="263.0" text="User Management" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="addUser" layoutX="209.0" layoutY="74.0" mnemonicParsing="false" onAction="#addUser" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Add User" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="400.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+      <Button fx:id="editUser" layoutX="209.0" layoutY="139.0" mnemonicParsing="false" onAction="#editUser" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Edit User" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteUser" layoutX="209.0" layoutY="203.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Delete User" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchUser" layoutX="209.0" layoutY="268.0" mnemonicParsing="false" onAction="#searchUser" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Search User" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="209.0" layoutY="332.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="39.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Quit" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

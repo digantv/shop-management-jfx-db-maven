@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="home_screen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="226.0" layoutY="30.0" prefHeight="39.0" prefWidth="186.0" text="Home Screen" textAlignment="CENTER" textFill="ORANGE">
+         <font>
+            <Font name="Calibri Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="userManagement" layoutX="209.0" layoutY="99.0" mnemonicParsing="false" onAction="#userManagement" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="User Management" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="400.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+      <Button fx:id="productManagement" layoutX="209.0" layoutY="177.0" mnemonicParsing="false" onAction="#productManagement" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Product Management" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="209.0" layoutY="257.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="39.0" prefWidth="221.0" style="-fx-background-color: #ffa500;" text="Quit" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

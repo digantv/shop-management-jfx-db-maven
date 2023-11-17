@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="login.LoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="583.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="393.0" fitWidth="583.0" pickOnBounds="true">
+         <image>
+            <Image url="@./Login%20Background.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="157.0" layoutY="103.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginName" layoutX="102.0" layoutY="142.0" prefHeight="24.0" prefWidth="155.0" promptText="Login Name">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="password" layoutX="102.0" layoutY="181.0" prefHeight="24.0" prefWidth="155.0" promptText="Password">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="loginButton" layoutX="102.0" layoutY="232.0" mnemonicParsing="false" onAction="#login" prefHeight="24.0" prefWidth="155.0" style="-fx-background-color: orange;" text="Next">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Line endX="100.0" layoutX="179.0" layoutY="220.0" startX="-100.0" />
+      <Label layoutX="116.0" layoutY="280.0" text="2023-2024 DvSys.inc. All Rights Reserved" textFill="WHITE">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
