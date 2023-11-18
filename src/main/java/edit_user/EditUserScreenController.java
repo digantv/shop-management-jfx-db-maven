@@ -52,10 +52,10 @@ public class EditUserScreenController {
 		alert.setContentText("User Edited Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 }

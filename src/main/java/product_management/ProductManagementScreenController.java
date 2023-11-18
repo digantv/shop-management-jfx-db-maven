@@ -26,24 +26,23 @@ public class ProductManagementScreenController {
 	private Button quit;
 
 	public void addProduct() {
-		AddProductScreen.showAddProductScreen();
+		new AddProductScreen().show();
 	}
 
 	public void editProduct() {
-		EditProductScreen.showEditProductScreen();
+		new EditProductScreen().show();
 	}
 
 	public void deleteProduct() {
-		DeleteProductScreen.showDeleteProductScreen();
+		new DeleteProductScreen().show();
 	}
 
 	public void searchProduct() {
-		SearchProductScreen.showSearchProductScreen();
+		new SearchProductScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		HomeScreen.showHomeScreen();
+		new HomeScreen().show();
 	}
-
 
 }

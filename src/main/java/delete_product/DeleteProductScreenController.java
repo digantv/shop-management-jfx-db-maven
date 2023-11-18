@@ -46,7 +46,7 @@ public class DeleteProductScreenController {
 		alert.setContentText("Product Deleted Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 
 	public void searchProduct() {
@@ -71,7 +71,7 @@ public class DeleteProductScreenController {
 	}
 
 	public void backToHomeScreen() {
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 
 	}
 }

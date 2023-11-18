@@ -57,6 +57,6 @@ public class SearchProductScreenController {
 	}
 
 	public void backToHomeScreen() {
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 }

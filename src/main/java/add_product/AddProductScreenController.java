@@ -42,11 +42,11 @@ public class AddProductScreenController {
 		alert.setContentText("Product Added Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 
 	}
 

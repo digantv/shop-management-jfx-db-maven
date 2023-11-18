@@ -19,11 +19,11 @@ public class HomeScreenController {
 	private Button quit;
 
 	public void userManagement(ActionEvent event) throws Exception {
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 
 	public void productManagement(ActionEvent event) {
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 
 	public void backToHomeScreen(ActionEvent event) {

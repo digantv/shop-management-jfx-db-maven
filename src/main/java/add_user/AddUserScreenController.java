@@ -28,10 +28,10 @@ public class AddUserScreenController {
 
 	@FXML
 	private TextField userID;
-	
+
 	@FXML
 	private Button addUserButton;
-	
+
 	@FXML
 	private Button closeButton;
 
@@ -45,11 +45,11 @@ public class AddUserScreenController {
 		alert.setContentText("User Added Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 
 	}
 }

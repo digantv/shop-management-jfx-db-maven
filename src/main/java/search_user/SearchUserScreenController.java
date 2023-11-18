@@ -60,6 +60,6 @@ public class SearchUserScreenController {
 	}
 
 	public void backToHomeScreen() {
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 }

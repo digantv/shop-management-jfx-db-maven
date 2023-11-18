@@ -4,10 +4,8 @@ import db_operations.DBUtils;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import product_management.ProductManagementScreen;
-import user_management.UserManagementScreen;
 
 public class EditProductScreenController {
 
@@ -45,11 +43,11 @@ public class EditProductScreenController {
 		alert.setContentText("Product Edited Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		ProductManagementScreen.showProductManagementScreen();
+		new ProductManagementScreen().show();
 	}
 
 }

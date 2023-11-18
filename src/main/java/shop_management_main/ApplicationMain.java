@@ -13,7 +13,7 @@ public class ApplicationMain extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		StageFactory.stage = stage;
-		LoginScreen.showLoginScreen();
+		new LoginScreen().show();
 
 	}
 }

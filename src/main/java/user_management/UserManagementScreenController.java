@@ -26,22 +26,22 @@ public class UserManagementScreenController {
 	private Button quit;
 
 	public void addUser() {
-		AddUserScreen.showAddUserScreen();
+		new AddUserScreen().show();
 	}
 
 	public void editUser() {
-		EditUserScreen.showEditUserScreen();
+		new EditUserScreen().show();
 	}
 
 	public void deleteUser() {
-		DeleteUserScreen.showDeleteUserScreen();
+		new DeleteUserScreen().show();
 	}
 
 	public void searchUser() {
-		SearchUserScreen.showSearchUserScreen();
+		new SearchUserScreen().show();
 	}
 
 	public void backToHomeScreen() {
-		HomeScreen.showHomeScreen();
+		new HomeScreen().show();
 	}
 }

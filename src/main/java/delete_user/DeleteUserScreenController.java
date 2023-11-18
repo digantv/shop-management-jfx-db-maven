@@ -67,7 +67,7 @@ public class DeleteUserScreenController {
 	}
 
 	public void backToHomeScreen() {
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 
 	public void deleteUser() {
@@ -80,7 +80,7 @@ public class DeleteUserScreenController {
 		alert.setContentText("User Deleted Successfully!");
 		alert.setHeaderText("Success!!");
 		alert.show();
-		UserManagementScreen.showUserManagementScreen();
+		new UserManagementScreen().show();
 	}
 
 }
